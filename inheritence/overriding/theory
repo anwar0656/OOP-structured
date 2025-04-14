@@ -1,0 +1,4 @@
+if a drived class has same function as base class than 
+if we call drived function thAN BASE CLASS FUNCTION IS ignored 
+thus derived class function is called this scenerio refers to the 
+overriding
