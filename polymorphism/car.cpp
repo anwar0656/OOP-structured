@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-class car
+class car //pure abstract class 
 {
 public:
     virtual void start()=0; 
@@ -54,3 +54,10 @@ c->stop(); // stopped swift
 /* now using pure virtual function to attend polymorphism*/
     return 0;
 }
+
+
+
+
+/*NOT 
+pointer of an abstract class pointing to an object is allowed. However it is 
+not allowd to create a simple object of abstract class*/
