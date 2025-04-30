@@ -21,9 +21,9 @@ class rational{
 int main(){
     rational r1(10,3);
     rational r2(2,5);
-    rational c;
-    c=r1+r2;
-    cout<<c<<endl;
+    rational c9;
+    c9=r1+r2;
+    cout<<c9<<endl;
 
     return 0;
 }

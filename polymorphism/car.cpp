@@ -33,6 +33,7 @@ public:
 };
 int main()
 {
+    
     // without virtual
     car *c = new innova();
     c->start(); // started car
